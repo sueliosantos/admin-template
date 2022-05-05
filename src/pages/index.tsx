@@ -1,14 +1,9 @@
+import Layout from "../components/template/Layout";
+
 export default function Home() {
   return (
-    <div
-      className={` 
-    bg-gradient-to-r 
-    from-green-500
-    to-blue-500
-    text-3xl
-    `}
-    >
-      <h1>ADMIN</h1>
-    </div>
+    <Layout titulo="Página inicial" subtitulo="Construção do template">
+      <h3>Conteúdo</h3>
+    </Layout>
   );
 }

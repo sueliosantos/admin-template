@@ -5,13 +5,14 @@ interface TituloProps {
   subtitulo: string;
 }
 
-export default function Cabecalho(props: TituloProps) {
+export default function Titulo(props: TituloProps) {
   return (
     <div>
       <h1
         className={`
         font-black text-3xl
         text-gray-900
+        dark:text-gray-100
       `}
       >
         {props.titulo}

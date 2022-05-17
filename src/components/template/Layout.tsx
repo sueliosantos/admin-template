@@ -1,6 +1,7 @@
 import Cabecalho from "./Cabecalho";
 import MenuLateral from "./MenuLateral";
 import Conteudo from "./Conteudo";
+import useAppData from "../../data/hook/useAppData";
 
 interface LayoutProps {
   titulo: string;
@@ -9,14 +10,15 @@ interface LayoutProps {
 }
 
 export default function Layout(props: LayoutProps) {
+  const { tema } = useAppData();
   return (
     <div
       className={`
-      dark
       flex
       h-screen
       w-screen
-    `}
+      ${tema}
+      `}
     >
       <MenuLateral />
       <div
@@ -24,8 +26,7 @@ export default function Layout(props: LayoutProps) {
         flex-col
         w-full
         p-7
-       dark:bg-green-50
-        
+       dark:bg-gray-800
         `}
       >
         <Cabecalho titulo={props.titulo} subtitulo={props.subtitulo} />

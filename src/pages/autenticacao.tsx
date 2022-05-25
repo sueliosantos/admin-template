@@ -35,7 +35,7 @@ export default function Autenticacao() {
     <div className="flex h-screen items-center justify-center">
       <div className="hidden md:block md:w-1/2">
         <img
-          src="http://revistaocomercio.com.br/wp-content/uploads/2017/10/cartola-fc-785x400.jpg"
+          src="https://source.unsplash.com/random"
           alt="Imagem da tela de autenticação"
           className="h-screen w-full object-cover"
         />

@@ -3,9 +3,13 @@ import "firebase/auth";
 
 if (!firebase.apps.length) {
   firebase.initializeApp({
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIS,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    apiKey: "AIzaSyA0q5br1DRlfDnYuKLrksfrfXoMccgQW7g",
+    authDomain: "admin-template-55137.firebaseapp.com",
+    projectId: "admin-template-55137",
+    storageBucket: "admin-template-55137.appspot.com",
+    messagingSenderId: "467125377808",
+    appId: "1:467125377808:web:415fa884e74cefa3c82395",
+    measurementId: "G-NBH2Y9NMHS",
   });
 }
 

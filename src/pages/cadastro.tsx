@@ -37,9 +37,7 @@ export default function Cadastro() {
       {visivel === "tabela" ? (
         <>
           <div className="flex justify-end">
-            <Botao onClick={novoCliente} className="mb-4">
-              Novo Cliente
-            </Botao>
+            <Botao className="mb-4">Novo Cliente</Botao>
           </div>
 
           <TabelaClientes

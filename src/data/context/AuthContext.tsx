@@ -3,6 +3,7 @@ import Usuario from "../../components/model/Usuario";
 import firebase from "../../firebase/config";
 import route from "next/router";
 import Cookie from "js-cookie";
+import "firebase/auth";
 
 interface AuthContextProps {
   usuario?: Usuario;
